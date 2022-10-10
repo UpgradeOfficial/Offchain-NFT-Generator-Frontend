@@ -12,7 +12,7 @@ const GET_CREATED_NFT = gql`
 `;
 const Test = () => {
   const {loading, error, data} = useQuery(GET_CREATED_NFT)
-  console.log(data)
+  // console.log(data)
   return (
     <div>Test</div>
   )
